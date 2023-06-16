@@ -1,6 +1,6 @@
 ﻿Console.Clear();
 Console.WriteLine("Enter a five-digit number:");
-string N = Console.ReadLine();
+string N = Console.ReadLine()!;
 
 if (N.Length != 5)
 {
